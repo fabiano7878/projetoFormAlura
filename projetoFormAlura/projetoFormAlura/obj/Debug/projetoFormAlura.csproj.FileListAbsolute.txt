@@ -1,0 +1,9 @@
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\bin\Debug\projetoFormAlura.exe.config
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\bin\Debug\projetoFormAlura.exe
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\bin\Debug\projetoFormAlura.pdb
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\CaixaEletronico.Form1.resources
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\projetoFormAlura.Properties.Resources.resources
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\projetoFormAlura.csproj.GenerateResource.Cache
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\projetoFormAlura.exe
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\projetoFormAlura.pdb
+C:\WindowsPhone\NewRepo\HelloWord\projetoFormAlura\projetoFormAlura\obj\Debug\projetoFormAlura.csprojResolveAssemblyReference.cache
