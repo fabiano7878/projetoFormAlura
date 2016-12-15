@@ -6,33 +6,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CaixaEletronico
+namespace projetoFormAlura
 {
-    class Conta
+   class Conta
     {
-        public int nAgencia;
-        public int nConta;
-        public int digitoConta; 
-        public double saldo;
-        public String titular;
-        public Cliente cliente = new Cliente();        
+        public int Agencia { get; set; }
+        public int Nconta { get; set; }
+        public int DigitoConta { get; set; }
+        public double Saldo { get; protected set; }
+        public Cliente Titular { get; set; }        
 
-        public void Saque(double valor)
+        public virtual void Saque(double valor)
         {
-            if (valor <= this.saldo && valor > 0)
+            if (valor <= this.Saldo && valor > 0)
             {
-                this.saldo -= valor;
+                this.Saldo -= valor;
             }
             else
             {
-                MessageBox.Show("O Valor a ser sacado é Invalido! O valordo saue Não pode ser menor ou igual 0!");
+                MessageBox.Show("O Valor a ser sacado é Invalido! O valor do saque Não pode ser menor ou igual 0!");
             }
         }
 
         public void Deposito(double valor)
         {
             if(valor > 0) {
-                this.saldo += valor;
+                this.Saldo += valor;
             }else
             {
                 MessageBox.Show("O Valor a ser depositado é Invalido! O valor Não pode ser menor que 0!");
@@ -49,14 +48,14 @@ namespace CaixaEletronico
 
         public double CalculaRendimentoAnual()
         {
-            double saldoNaqueleMes = this.saldo;
+            double saldoNaqueleMes = this.Saldo;
 
             for (int i = 0; i < 12; i++)
             {
                 saldoNaqueleMes = saldoNaqueleMes * 1.007;
             }
 
-            double rendimento = saldoNaqueleMes - this.saldo;
+            double rendimento = saldoNaqueleMes - this.Saldo;
 
             return rendimento;
         }

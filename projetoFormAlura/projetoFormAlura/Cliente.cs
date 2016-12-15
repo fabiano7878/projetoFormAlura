@@ -6,22 +6,35 @@ using System.Threading.Tasks;
 
 namespace projetoFormAlura
 {
-    class Cliente
+   class Cliente
     {
 
-        public String nome;
+        public String Nome {get; set;}
 
-        public String numeroCPF;
+        public String NumeroCPF { get; set; }
 
-        public String endereco;
+        public String Endereco { get; set; }
 
-        public int idade;
+        public int Idade { get; set; }
 
-        public bool EhMaiorDeIdade()
+        public Cliente()
         {
-           return this.idade >= 18;
+
+        }
+        public Cliente(String nome)
+        {
+            this.Nome = nome;
         }
 
+
+        public bool EhMaiorDeIdade
+        {
+            get
+            {
+                return this.Idade >= 18;
+            }
+
+        }
     }
 
 
